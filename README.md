@@ -6,25 +6,17 @@
 <br>
 
 ## 👉🏻 model
-Transformers Encoder based model
+Huggingface Pretrained_model(monologg/kobert)을 활용한 Downstream Task
 <br>
 <br>
 
 ## 👉🏻 tree
  * [tree-md]
  * [src]
-   * [models]
-     * [MainModels.py]
-     * [TransformerLayers.py]
-     * [UtilLayers.py]
-   * [processing]
-     * [tokenizer_train.ipynb]
    * [config.yml]
    * [dataloader.py]
-   * [metric.py]
    * [predict.py]
    * [train.py]
-   * [trainer.py]
  * [Dockerfile]
  * [README.md]
  * [requirements.txt]
